@@ -1,0 +1,59 @@
+/opt/conda/lib/python3.12/site-packages/torch/utils/data/dataloader.py:617: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(
+/opt/conda/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/opt/conda/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch 1: Train Loss=1.6769, Train Acc=0.3919 | Val Loss=1.4634, Val Acc=0.4537
+Epoch 2: Train Loss=1.1413, Train Acc=0.5870 | Val Loss=1.3857, Val Acc=0.5562
+Epoch 3: Train Loss=0.8904, Train Acc=0.6834 | Val Loss=0.8536, Val Acc=0.6968
+Epoch 4: Train Loss=0.7403, Train Acc=0.7368 | Val Loss=0.7367, Val Acc=0.7360
+Epoch 5: Train Loss=0.6189, Train Acc=0.7845 | Val Loss=0.7951, Val Acc=0.7321
+Epoch 6: Train Loss=0.5191, Train Acc=0.8174 | Val Loss=0.7891, Val Acc=0.7461
+Epoch 7: Train Loss=0.4399, Train Acc=0.8470 | Val Loss=0.6081, Val Acc=0.8000
+Epoch 8: Train Loss=0.3759, Train Acc=0.8681 | Val Loss=0.6249, Val Acc=0.7960
+Epoch 9: Train Loss=0.3072, Train Acc=0.8931 | Val Loss=0.6033, Val Acc=0.8057
+Epoch 10: Train Loss=0.2413, Train Acc=0.9154 | Val Loss=0.5973, Val Acc=0.8184
+Epoch 11: Train Loss=0.1945, Train Acc=0.9320 | Val Loss=0.6604, Val Acc=0.8061
+Epoch 12: Train Loss=0.1558, Train Acc=0.9445 | Val Loss=0.7644, Val Acc=0.7914
+Epoch 13: Train Loss=0.1322, Train Acc=0.9534 | Val Loss=0.7402, Val Acc=0.8108
+Epoch 14: Train Loss=0.1118, Train Acc=0.9607 | Val Loss=0.8202, Val Acc=0.8003
+Epoch 15: Train Loss=0.0941, Train Acc=0.9667 | Val Loss=0.7520, Val Acc=0.8196
+Epoch 16: Train Loss=0.0867, Train Acc=0.9690 | Val Loss=0.7926, Val Acc=0.8144
+Epoch 17: Train Loss=0.0754, Train Acc=0.9731 | Val Loss=0.8057, Val Acc=0.8070
+Epoch 18: Train Loss=0.0683, Train Acc=0.9757 | Val Loss=0.9335, Val Acc=0.8090
+Epoch 19: Train Loss=0.0638, Train Acc=0.9781 | Val Loss=0.9001, Val Acc=0.8131
+Epoch 20: Train Loss=0.0674, Train Acc=0.9770 | Val Loss=0.8102, Val Acc=0.8144
+Epoch 21: Train Loss=0.0570, Train Acc=0.9800 | Val Loss=0.8511, Val Acc=0.8145
+Epoch 22: Train Loss=0.0472, Train Acc=0.9831 | Val Loss=0.8922, Val Acc=0.8130
+Epoch 23: Train Loss=0.0435, Train Acc=0.9855 | Val Loss=1.0352, Val Acc=0.8105
+Epoch 24: Train Loss=0.0531, Train Acc=0.9806 | Val Loss=0.9405, Val Acc=0.8152
+Epoch 25: Train Loss=0.0496, Train Acc=0.9832 | Val Loss=0.9237, Val Acc=0.8115
+Epoch 26: Train Loss=0.0452, Train Acc=0.9848 | Val Loss=0.8291, Val Acc=0.8327
+Epoch 27: Train Loss=0.0381, Train Acc=0.9872 | Val Loss=1.0346, Val Acc=0.7998
+Epoch 28: Train Loss=0.0337, Train Acc=0.9882 | Val Loss=0.9445, Val Acc=0.8172
+Epoch 29: Train Loss=0.0349, Train Acc=0.9884 | Val Loss=1.0173, Val Acc=0.8105
+Epoch 30: Train Loss=0.0451, Train Acc=0.9844 | Val Loss=0.9040, Val Acc=0.8203
+Epoch 31: Train Loss=0.0405, Train Acc=0.9864 | Val Loss=0.8723, Val Acc=0.8229
+Epoch 32: Train Loss=0.0316, Train Acc=0.9886 | Val Loss=0.9647, Val Acc=0.8150
+Epoch 33: Train Loss=0.0321, Train Acc=0.9892 | Val Loss=0.8313, Val Acc=0.8314
+Epoch 34: Train Loss=0.0360, Train Acc=0.9878 | Val Loss=0.8132, Val Acc=0.8329
+Epoch 35: Train Loss=0.0242, Train Acc=0.9921 | Val Loss=1.0355, Val Acc=0.8102
+Epoch 36: Train Loss=0.0279, Train Acc=0.9901 | Val Loss=0.9905, Val Acc=0.8237
+Epoch 37: Train Loss=0.0341, Train Acc=0.9891 | Val Loss=0.9771, Val Acc=0.8220
+Epoch 38: Train Loss=0.0295, Train Acc=0.9899 | Val Loss=0.8979, Val Acc=0.8298
+Epoch 39: Train Loss=0.0270, Train Acc=0.9906 | Val Loss=0.9768, Val Acc=0.8252
+Epoch 40: Train Loss=0.0222, Train Acc=0.9922 | Val Loss=0.9268, Val Acc=0.8336
+Epoch 41: Train Loss=0.0264, Train Acc=0.9911 | Val Loss=0.9892, Val Acc=0.8232
+Epoch 42: Train Loss=0.0281, Train Acc=0.9904 | Val Loss=1.0852, Val Acc=0.8135
+Epoch 43: Train Loss=0.0246, Train Acc=0.9916 | Val Loss=0.9265, Val Acc=0.8323
+Epoch 44: Train Loss=0.0190, Train Acc=0.9935 | Val Loss=1.0473, Val Acc=0.8224
+Epoch 45: Train Loss=0.0252, Train Acc=0.9915 | Val Loss=0.9100, Val Acc=0.8291
+Epoch 46: Train Loss=0.0180, Train Acc=0.9940 | Val Loss=0.9099, Val Acc=0.8362
+Epoch 47: Train Loss=0.0300, Train Acc=0.9899 | Val Loss=0.9619, Val Acc=0.8178
+Epoch 48: Train Loss=0.0229, Train Acc=0.9925 | Val Loss=0.9650, Val Acc=0.8293
+Epoch 49: Train Loss=0.0137, Train Acc=0.9955 | Val Loss=1.0238, Val Acc=0.8232
+Epoch 50: Train Loss=0.0223, Train Acc=0.9921 | Val Loss=1.0365, Val Acc=0.8292
+Test Loss=1.1137, Test Acc=0.8186
